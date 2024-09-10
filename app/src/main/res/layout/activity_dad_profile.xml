@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".momProfile">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:padding="10dp"
+        android:layout_gravity="center"
+        android:text="Daddy" />
+
+    <ImageView
+        android:id="@+id/dad"
+        android:layout_width="500dp"
+        android:layout_height="400dp"
+        android:padding="10dp"
+        app:srcCompat="@drawable/dad" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="338dp"
+            android:padding="10dp"
+            android:text="Ram Shrestha, my father, is a devoted farmer who has dedicated his life to nurturing both the land and his family. His days are often
+spent working tirelessly, but he also finds time to unwind by scrolling through social media—a hobby that keeps him connected with the
+ world. Despite his busy schedule, he has a kind and caring nature, though he can be stern when necessary. This blend of warmth and discipline
+ is part of what makes him so impactful.
+One of the most valuable lessons he has imparted to me is the importance of valuing time. He always says, “If you don’t value your time,
+no one will value you.” This lesson has guided me throughout my life, reminding me to make the most of every moment and to understand the true worth of time."
+            android:textSize="20dp"
+            android:textStyle="bold" />
+    </ScrollView>
+
+</LinearLayout>

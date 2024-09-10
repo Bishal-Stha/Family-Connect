@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".momProfile">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:padding="10dp"
+        android:layout_gravity="center"
+        android:text="Bikash" />
+
+    <ImageView
+        android:id="@+id/bikash"
+        android:layout_width="500dp"
+        android:layout_height="400dp"
+        android:padding="10dp"
+        app:srcCompat="@drawable/bikash" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="338dp"
+            android:padding="10dp"
+            android:text="
+Bikash Shrestha, my brother, is a passionate and skilled professional cook who brings creativity and flavor to everything he does in the kitchen. When he’s not whipping up delicious dishes, you’ll find him enjoying his favorite pastime: watching movies and web series.
+
+His personality shines with kindness, helpfulness, and generosity, making him someone you can always count on. One of the key lessons he’s taught me is that 'money saved is money earned,' a principle that has guided my approach to managing finances. His thoughtful advice and caring nature make him a truly inspiring sibling."
+            android:textSize="20dp"
+            android:textStyle="bold" />
+    </ScrollView>
+
+</LinearLayout>

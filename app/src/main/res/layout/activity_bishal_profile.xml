@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".momProfile">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:padding="10dp"
+        android:layout_gravity="center"
+        android:text="Bishal" />
+
+    <ImageView
+        android:id="@+id/bishal"
+        android:layout_width="500dp"
+        android:layout_height="400dp"
+        android:padding="10dp"
+        app:srcCompat="@drawable/bishal" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="338dp"
+            android:padding="10dp"
+            android:text="Hello! I'm Bishal Shrestha, a dedicated student currently pursuing a Bachelor’s degree in Computer Science and Information Technology (BSc. CSIT). My passion lies in the realm of Information and Technology, with a particular focus on app and web development. I’m constantly exploring new technologies and honing my skills to stay ahead in this dynamic field.
+As an extrovert, I thrive in social settings and enjoy engaging with people, which helps me communicate fluently and build strong connections. My motto, 'If you don't sacrifice for what you want, what you want becomes your sacrifice,' drives me to stay committed and work diligently towards my goals. This mindset fuels my passion and keeps me motivated to achieve my dreams in the tech world."
+            android:textSize="20dp"
+            android:textStyle="bold" />
+    </ScrollView>
+
+</LinearLayout>

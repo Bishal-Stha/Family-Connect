@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".momProfile">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:padding="10dp"
+        android:layout_gravity="center"
+        android:text="Mom" />
+
+    <ImageView
+        android:id="@+id/mom"
+        android:layout_width="500dp"
+        android:layout_height="400dp"
+        android:padding="10dp"
+        app:srcCompat="@drawable/mom" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="338dp"
+            android:padding="10dp"
+            android:text="About Mom Shree Kumari Shrestha, my beloved mother, is a wonderful homemaker with a heart full of warmth and wisdom.
+         She has a variety of hobbies, including singing, knitting clothes, and reading, all of which reflect her creative and thoughtful
+          nature. As a housewife, she has dedicated herself entirely to caring for her family, always offering her support with love and
+          intelligence. She is caring, supportive, and incredibly intelligent—qualities that make her truly divine. One of the most valuable
+           lessons she has imparted to me is the importance of respecting seniors and the significance of education, lessons I carry with me every day."
+            android:textSize="20dp"
+            android:textStyle="bold" />
+    </ScrollView>
+
+</LinearLayout>

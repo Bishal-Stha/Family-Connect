@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".momProfile">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:padding="10dp"
+        android:layout_gravity="center"
+        android:text="Daddy" />
+
+    <ImageView
+        android:id="@+id/bibek"
+        android:layout_width="500dp"
+        android:layout_height="400dp"
+        android:padding="10dp"
+        app:srcCompat="@drawable/bibek" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="338dp"
+            android:padding="10dp"
+            android:text="Bibek Shrestha is my brother, a true technology enthusiast with a passion for all things tech. He’s also a huge fan of the TV show TMKOC, which adds a fun twist to his tech-savvy persona. Professionally, he shines as a Project Guru, skillfully managing and guiding projects with expertise.
+
+        While he might come off as slightly boring at times, his intelligence and helpful nature truly stand out. One of the most important lessons he has shared with me is to leverage your time effectively; according to him, doing so will help you outshine others. His insights and advice have been invaluable, making him not only a supportive sibling but also a source of inspiration."
+            android:textSize="20dp"
+            android:textStyle="bold" />
+    </ScrollView>
+
+</LinearLayout>
